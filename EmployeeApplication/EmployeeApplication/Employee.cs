@@ -22,7 +22,7 @@ namespace EmployeeApplication
             }
             else
             {
-                Console.WriteLine("Check the Field 1. Work experience - cannot be a negative number. Field 2. Skill level - can be chilo only from 1-5.!");
+                Console.WriteLine("Check the Field 1. Work experience - cannot be a negative number. Field 2. Skill level - can be chilo only from 1-5. All fields are required");
                 this.Work_experience = -1;
                 this.Skill_level = -1;          
 
