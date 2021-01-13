@@ -10,8 +10,9 @@ namespace EmployeeApplication
         int Skill_level;
         string Last_name;
         string Name;
+        int BonusPercent;
 
-        public Employee(int Work_experience, int Skill_level, string Last_name, string Name)
+        public Employee(int Work_experience, int Skill_level, string Last_name, string Name, int BonusPercent)
         {
             if ((Work_experience >= 0) & (Skill_level > 0) & (Skill_level < 6))
             {
@@ -19,13 +20,24 @@ namespace EmployeeApplication
                 this.Skill_level = Skill_level;
                 this.Last_name = Last_name;
                 this.Name = Name;
-            }
+                            }
             else
             {
                 Console.WriteLine("Сотрудник не создан по одной из причин: Проверьте поле 1. Опыт работы - не может быть отрицательным числом. Поле 2. Уровень квалификации - может быть чило только от 1-5. Все поля обязательны для заполнения");
                        
 
             }
+
+            if ((Work_experience < 5) & (Work_experience > 1))
+            {
+                this.BonusPercent = 5;
+            }
+            else
+            {
+                this.BonusPercent = 0;
+
+                           }
+
         }
             public int getWork_experience()
             {
@@ -44,6 +56,11 @@ namespace EmployeeApplication
         public string getName()
         {
             return this.Name;
+        }
+
+        public int getBonusPercent()
+        {
+            return this.BonusPercent;
         }
 
     }

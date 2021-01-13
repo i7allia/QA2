@@ -23,8 +23,12 @@ namespace EmployeeApplication
             string Name;
             Console.WriteLine("Введите Имя");
             Name = Convert.ToString(Console.ReadLine());
+           
+            int BonusPercent;
+            BonusPercent = Convert.ToInt32(Console.ReadLine());
 
-            Employee Employee = new Employee(Work_experience, Skill_level, Last_name, Name);
+
+            Employee Employee = new Employee(Work_experience, Skill_level, Last_name, Name, BonusPercent);
 
            
 
@@ -32,14 +36,14 @@ namespace EmployeeApplication
             int s = Employee.getSkill_level();
             string l = Employee.getLast_name();
             string n = Employee.getName();
-
+            int b = Employee.getBonusPercent();
 
             Console.WriteLine("Сотрудник:");
             Console.WriteLine($"Имя - " + n);
             Console.WriteLine($"Фамилия - " + l);
             Console.WriteLine($"Cтаж работы - " + w);
             Console.WriteLine($"Уровень квалификации - " + s);
-            Console.WriteLine($"Процент бонусов - этого я пока тебе не скажу. ");
+            Console.WriteLine($"Процент бонусов - " + b);
 
 
 
