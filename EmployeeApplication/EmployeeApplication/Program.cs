@@ -24,11 +24,11 @@ namespace EmployeeApplication
             Console.WriteLine("Введите Имя");
             Name = Convert.ToString(Console.ReadLine());
            
-            int BonusPercent;
-            BonusPercent = Convert.ToInt32(Console.ReadLine());
+            //int BonusPercent;
+            
+            
 
-
-            Employee Employee = new Employee(Work_experience, Skill_level, Last_name, Name, BonusPercent);
+            Employee Employee = new Employee(Work_experience, Skill_level, Last_name, Name, 0);
 
            
 

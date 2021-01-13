@@ -28,39 +28,39 @@ namespace EmployeeApplication
 
             }
 
-            if ((Work_experience < 5) & (Work_experience > 1))
-            {
-                this.BonusPercent = 5;
+            if ((Work_experience) < 5 & (Work_experience > 1))
+           {
+               this.BonusPercent = 5;
             }
-            else
-            {
-                this.BonusPercent = 0;
-
-                           }
-
             
-
-
-            if ((Work_experience > 5) & (Skill_level > 4))
-            {
-                this.BonusPercent = 20;
-            }
+            
             else
             {
                 if ((Work_experience >= 5) & (Skill_level < 3))
-                {
-                    this.BonusPercent = 10;
+                { this.BonusPercent = 10;
                 }
                 else
-                {
-                    this.BonusPercent = 15;
 
-                }
+                {
+                    if ((Work_experience > 5) & (Skill_level >= 3) & (Skill_level < 5))
+
+                    { this.BonusPercent = 15; }
+                
+                 else
+                  if ((Work_experience > 5) & (Skill_level >4))
+
+                    { this.BonusPercent = 20;
+
+                 }
+                   
+
+                  }
 
             }
 
 
-        }
+
+                   }
             public int getWork_experience()
             {
                 return this.Work_experience;
@@ -81,7 +81,7 @@ namespace EmployeeApplication
         }
 
         public int getBonusPercent()
-        {
+       {
             return this.BonusPercent;
         }
 
