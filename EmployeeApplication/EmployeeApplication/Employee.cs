@@ -24,7 +24,7 @@ namespace EmployeeApplication
             {
                 Console.WriteLine("Check the Field 1. Work experience - cannot be a negative number. Field 2. Skill level - can be chilo only from 1-5.!");
                 this.Work_experience = -1;
-                this.Skill_level = -1;
+                this.Skill_level = -1;          
 
             }
         }
@@ -32,6 +32,20 @@ namespace EmployeeApplication
             {
                 return this.Work_experience;
             }
+        public int getSkill_level()
+        {
+            return this.Skill_level;
+        }
+
+
+        public string getLast_name()
+        {
+            return this.Last_name;
+        }
+        public string getName()
+        {
+            return this.Name;
+        }
 
     }
 }

@@ -1,0 +1,13 @@
+D:\project\QA2\EmployeeApplication\EmployeeApplication\bin\Debug\netcoreapp3.1\EmployeeApplication.exe
+D:\project\QA2\EmployeeApplication\EmployeeApplication\bin\Debug\netcoreapp3.1\EmployeeApplication.deps.json
+D:\project\QA2\EmployeeApplication\EmployeeApplication\bin\Debug\netcoreapp3.1\EmployeeApplication.runtimeconfig.json
+D:\project\QA2\EmployeeApplication\EmployeeApplication\bin\Debug\netcoreapp3.1\EmployeeApplication.runtimeconfig.dev.json
+D:\project\QA2\EmployeeApplication\EmployeeApplication\bin\Debug\netcoreapp3.1\EmployeeApplication.dll
+D:\project\QA2\EmployeeApplication\EmployeeApplication\bin\Debug\netcoreapp3.1\EmployeeApplication.pdb
+D:\project\QA2\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp3.1\EmployeeApplication.csprojAssemblyReference.cache
+D:\project\QA2\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp3.1\EmployeeApplication.AssemblyInfoInputs.cache
+D:\project\QA2\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp3.1\EmployeeApplication.AssemblyInfo.cs
+D:\project\QA2\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp3.1\EmployeeApplication.csproj.CoreCompileInputs.cache
+D:\project\QA2\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp3.1\EmployeeApplication.dll
+D:\project\QA2\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp3.1\EmployeeApplication.pdb
+D:\project\QA2\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp3.1\EmployeeApplication.genruntimeconfig.cache
