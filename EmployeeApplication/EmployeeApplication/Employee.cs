@@ -22,9 +22,8 @@ namespace EmployeeApplication
             }
             else
             {
-                Console.WriteLine("Check the Field 1. Work experience - cannot be a negative number. Field 2. Skill level - can be chilo only from 1-5. All fields are required");
-                this.Work_experience = -1;
-                this.Skill_level = -1;          
+                Console.WriteLine("Сотрудник не создан по одной из причин: Проверьте поле 1. Опыт работы - не может быть отрицательным числом. Поле 2. Уровень квалификации - может быть чило только от 1-5. Все поля обязательны для заполнения");
+                       
 
             }
         }

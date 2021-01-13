@@ -34,7 +34,7 @@ namespace EmployeeApplication
             string n = Employee.getName();
 
 
-            Console.WriteLine("Cотрудник:");
+            Console.WriteLine("Сотрудник:");
             Console.WriteLine($"Имя - " + n);
             Console.WriteLine($"Фамилия - " + l);
             Console.WriteLine($"Cтаж работы - " + w);
