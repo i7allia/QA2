@@ -8,7 +8,9 @@ namespace EmployeeApplication
         {
             Console.WriteLine("Привет дружок! Это бета версия приложения СОТРУДНИК ");
 
-            int Work_experience;
+            while (true)
+            {
+                int Work_experience;
             Console.WriteLine("Введите стаж работы (в годах)");
             Work_experience = Convert.ToInt32(Console.ReadLine());
 
@@ -45,7 +47,10 @@ namespace EmployeeApplication
             Console.WriteLine($"Уровень квалификации - " + s);
             Console.WriteLine($"Процент бонусов - " + b);
 
-
+                Console.WriteLine("Повторить? y/n");
+                if (Console.ReadKey(true).Key != ConsoleKey.Y)
+                    break;
+            }
 
         }
     }
