@@ -28,35 +28,7 @@ namespace EmployeeApplication
 
             }
 
-            if ((Work_experience) < 5 & (Work_experience > 1))
-           {
-               this.BonusPercent = 5;
-            }
-            
-            
-            else
-            {
-                if ((Work_experience >= 5) & (Skill_level < 3))
-                { this.BonusPercent = 10;
-                }
-                else
-
-                {
-                    if ((Work_experience > 5) & (Skill_level >= 3) & (Skill_level < 5))
-
-                    { this.BonusPercent = 15; }
-                
-                 else
-                  if ((Work_experience > 5) & (Skill_level >4))
-
-                    { this.BonusPercent = 20;
-
-                 }
-                   
-
-                  }
-
-            }
+           
 
 
 
@@ -82,6 +54,37 @@ namespace EmployeeApplication
 
         public int getBonusPercent()
        {
+            if ((Work_experience) < 5 & (Work_experience > 1))
+            {
+                this.BonusPercent = 5;
+            }
+
+
+            else
+            {
+                if ((Work_experience >= 5) & (Skill_level < 3))
+                {
+                    this.BonusPercent = 10;
+                }
+                else
+
+                {
+                    if ((Work_experience > 5) & (Skill_level >= 3) & (Skill_level < 5))
+
+                    { this.BonusPercent = 15; }
+
+                    else
+                  if ((Work_experience > 5) & (Skill_level > 4))
+
+                    {
+                        this.BonusPercent = 20;
+
+                    }
+
+
+                }
+
+            }
             return this.BonusPercent;
         }
 
