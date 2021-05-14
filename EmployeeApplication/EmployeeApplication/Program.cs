@@ -30,7 +30,7 @@ namespace EmployeeApplication
             
             
 
-            Employee Employee = new Employee(Work_experience, Skill_level, Last_name, Name, 0);
+            Employee Employee = new Employee(Work_experience, Skill_level, Last_name, Name);
 
            
 

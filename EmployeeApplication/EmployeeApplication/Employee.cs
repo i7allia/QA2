@@ -12,9 +12,9 @@ namespace EmployeeApplication
         string Name;
         int BonusPercent;
 
-        public Employee(int Work_experience, int Skill_level, string Last_name, string Name, int BonusPercent)
+        public Employee(int Work_experience, int Skill_level, string Last_name, string Name)
         {
-            while (true)
+           /* while (true)
             {
 
                 if ((Work_experience >= 0) & (Skill_level > 0) & (Skill_level < 6))
@@ -34,11 +34,11 @@ namespace EmployeeApplication
                        
                     Environment.Exit(0);
                 }
-            }
+            } 
+           
+            */
 
            
-
-
 
                    }
             public int getWork_experience()
