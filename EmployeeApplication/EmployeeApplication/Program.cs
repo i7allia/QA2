@@ -26,7 +26,7 @@ namespace EmployeeApplication
             Console.WriteLine("Введите Имя");
             Name = Convert.ToString(Console.ReadLine());
            
-            //int BonusPercent;
+            int BonusPercent;
             
             
 

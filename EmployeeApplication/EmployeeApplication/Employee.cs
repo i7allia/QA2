@@ -67,7 +67,7 @@ namespace EmployeeApplication
 
         public int getBonusPercent()
        {
-            if ((Work_experience) < 5 & (Work_experience > 1))
+            if ((Work_experience) < 5 & (Work_experience > 0))
             {
                 this.BonusPercent = 5;
             }
