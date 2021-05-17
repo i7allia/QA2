@@ -17,9 +17,40 @@ namespace EmployeeApplication
             Assert.IsTrue(empl.getBonusPercent() == 0);
          
         }
-    
+
+        [Test]
+        public void checkExperienceLessThan4()
+        {
+            Employee empl = new Employee(4, 0, "Jhon", "Golt");
+            Assert.IsTrue(empl.getBonusPercent() == 5);
+
+        }
+
+        [Test]
+        public void checkExperienceLessThan5()
+        {
+            Employee empl = new Employee(5, 2, "Jhon", "Golt");
+            Assert.IsTrue(empl.getBonusPercent() == 10);
+
+        }
+
+        [Test]
+        public void checkExperienceLessThan6()
+        {
+            Employee empl = new Employee(6, 3, "Jhon", "Golt");
+            Assert.IsTrue(empl.getBonusPercent() == 15);
+
+        }
+
+        [Test]
+        public void checkExperienceLessThan7()
+        {
+            Employee empl = new Employee(6, 5, "Jhon", "Golt");
+            Assert.IsTrue(empl.getBonusPercent() == 20);
+
+        }
 
 
 
-}
+    }
 }

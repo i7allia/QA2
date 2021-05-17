@@ -19,3 +19,4 @@ D:\project\QA2\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp3.1\E
 D:\project\QA2\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp3.1\EmployeeApplication.dll
 D:\project\QA2\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp3.1\EmployeeApplication.pdb
 D:\project\QA2\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp3.1\EmployeeApplication.genruntimeconfig.cache
+D:\project\QA2\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp3.1\EmployeeApplication.csprojAssemblyReference.cache
