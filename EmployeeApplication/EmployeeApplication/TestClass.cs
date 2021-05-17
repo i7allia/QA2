@@ -50,7 +50,13 @@ namespace EmployeeApplication
 
         }
 
+        [Test]
+        public void checkExperienceLessThan8()
+        {
+            Employee empl = new Employee(-1, 5, "1", "Golt");
+            Assert.IsTrue(empl.getBonusPercent() == 20);
 
+        }
 
     }
 }
